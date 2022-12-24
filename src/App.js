@@ -3,8 +3,7 @@ import Login from './pages/Login';
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 import SignUp from './pages/SignUp';
 import Home from './pages/Home';
-import { useContext } from 'react';
-import NotesContext from './context/notes/NotesContext';
+
 import NotesState from './context/notes/NotesState';
 
 function App() {

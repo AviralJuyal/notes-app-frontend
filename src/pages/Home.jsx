@@ -18,7 +18,7 @@ const Home = () => {
       }
       else
         navigate('/');
-    }, [])
+    }, [userToken, getNote,navigate ])
 
     const handleEdit=(n)=>{
     
